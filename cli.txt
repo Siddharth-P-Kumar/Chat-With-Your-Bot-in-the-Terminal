@@ -2,8 +2,8 @@ aws bedrock-agent-runtime retrieve-and-generate \
    --input '{"text": "Why did the coffee go the Police?"}' \
    --retrieve-and-generate-configuration '{
        "knowledgeBaseConfiguration": {
-           "knowledgeBaseId": "NAPW72TV0N",
-           "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama3-3-70b-instruct-v1:0"
+           "knowledgeBaseId": "knowledge_id",
+           "modelArn": "model_arn"
   },
   "type": "KNOWLEDGE_BASE"
 }' \
